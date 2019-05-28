@@ -3,22 +3,38 @@
     <title>Tech Spec</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <main id="main-doc">
-        <h1 id="title">
+        <Header id="title">
             An introduction to Quality Assurance Documentation
-        </h1>
-        <section class="main-section">
-            <h1 id="intro">
+        </Header>
+        <nav id="navbar">
+            <div>
+                <header>Jump to a section:</header>
+                <a href="#DEV" class="nav-link"> Deviations & CAPAs</a>
+                <br>
+                <br>
+                <a href="#cc" class="nav-link"> Change Control</a>
+                <br>
+                <br>
+                <a href="#training" class="nav-link"> Training</a>
+                <br>
+                <br>
+                <a href="#auditing" class="nav-link"> Auditing</a>
+                <br>
+                <br>
+                <a href="#code" class="nav-link"> Code</a>
+            </div>
+        </nav>
+        <section id="intro" class="main-section">
+            <Header>
                 ISO9001
-            </h1>
+            </Header>
             <p>
                 ISO9001 was created by the International Organization for Standardization to provide clarity around Quality Management. It defines all of the elements of a QMS that should be in place, and must be in place to achieve certification.
             </p>
         </section>
-        <section class="main-section">
-            <header id="DEV">
-            <h1>
+        <section id="DEV" class="main-section">
+            <header>
                 Deviations and CAPAs
-            </h1>
             </header>
             <p>
                 Anytime that a process deviates from pre-approved specifications or procedures, this is a Deviation. 
@@ -29,10 +45,10 @@
                 This information is also tracked to allow trend analysis, ensuring that repetetive issues are identified and appropriate actions taken.
             </p>
         </section>
-        <section class="main-section">
-            <h1 id="cc">
+        <section id="cc" class="main-section">
+            <Header>
                 Change Control
-            </h1>
+            </Header>
             <p>
                 Change Control is a method of ensuring that any changes to approved documents, processes, or systems are maintained in a controlled state. 
             </p>
@@ -40,25 +56,57 @@
                 By capturing what is being changed and when, then requiring approval to make the changes, utilizing Change Control is an appropriate method of Version Control.
             </p>
         </section>
-        <section class="main-section">
-            <h1 id="training">
+        <section id="training" class="main-section">
+            <Header>
                 Training
-            </h1>
+            </Header>
             <p>
                 Quality is everyone's responsiblity! In order to maintain processes/systems in a compliant state all personnel must be trained prior to beginning work. Any processes or systems they will utilize as a part of their job should be included in training. </p> 
             <p>    
                 This may be completed in a variety of ways; including, read and understand, on the job training, classroom training, e-training, etc.
             </p>
         </section>
-        <section class="main-section">
-            <h1 id="auditing">
+        <section id="auditing" class="main-section">
+            <Header>
                 Auditing
-            </h1>
+            </Header>
             <p>
                 Auditing can be split into internal and external. Internal auditing is a method for the QA unit to ensure that personnel/departments within the organization are executing their work in a compliant manner (with internal policies and procedures, as well as, regulatory requirements).
             </p>
             <p>    
                 External audits are a way of ensuring those we conduct business with (vendors, suppliers, etc.) operate in a compliant way. The QA unit also holds responsiblity for hosting audits from external parties (vendors, regulatory bodies, etc.)
+            </p>
+        </section>
+        <section id ="QMS" class="main-section">
+            <Header>
+                Development of a QMS
+            </Header>
+            <p>
+                Companies have several options when selecting or developing a Quality Management System. This can include:
+                <ul>
+                    <li>Commercially available systems, such as:</li>
+                        <ul>
+                            <li>Veeva</li>
+                            <li>MasterControl</li>
+                            <li>TrackWise</li>
+                        </ul>
+                    <li>On prem or Cloud solutions</li>
+                    <li>Custom developed application</li>
+                </ul>
+            </p>
+        </section>
+        <section id ="code" class="main-section">
+            <Header>
+                Random Code
+            </Header>
+            <p>
+                I'm honestly not sure what to do with this section, so we are going to add some random sections of code.
+            </p>
+            <p>    
+                While writing this page, I used new tags, such as <code>Section</code>, I also used common tags, such as <code>li</code>,<code>class</code>, <code>id</code> and <code>link</code> that have been used in previous exercises. 
+            </p>
+            <p>
+                My plan is to come back to these projects at a later time and clean them up. Setting myself a reminder here to do that.
             </p>
         </section>
     </main>

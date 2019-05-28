@@ -4,3 +4,20 @@
 #title {
     text-align: center;
 }
+code {
+    background-color: antiquewhite;
+}
+#navbar {
+    width: 125px;
+    height: 150px;
+    overflow-y: auto;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+    background-color: gray;
+    color: white;
+}
